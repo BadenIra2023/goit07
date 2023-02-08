@@ -1,0 +1,152 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+ .header {
+     padding-top: 24px;
+     padding-bottom: 25px;
+ }
+
+.header-mail,
+.header-tel {
+    font-size: 14px; }
+.header-list .header-item:not(:last-child) {
+    margin-right: 50px;
+}
+.header-address .header-item:not(:last-child) {
+    margin-right: 50px;
+}
+.header-address {
+    display: flex;
+    margin-left: auto;
+}
+ .header-link-st,
+ .header-link-pf {
+     position: relative;
+ }
+
+ .header-link-st::after {
+     content: '';
+     top: 47px;
+ }
+/*
+.header-link-st::after {
+    content: '';
+    top: 44px;
+} */
+
+.title {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/hero-desk.jpg);
+        max-width: 1600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .title {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-desk-x2.jpg);
+    }
+}
+
+.section-title {
+   
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
+}
+
+.section-container {
+    display: block;
+    padding-bottom: 94px;
+}
+.after-hero {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.icon-section-sub {
+    width: 270px;
+    height: 120px;  }
+.section-sub-text {
+    width: calc((100% - 90px)/4);  } 
+    
+.section-team {
+     padding-top: 94px;
+    padding-bottom: 94px;
+}
+.caption {
+    font-size: 36px;
+    line-height: 1.18;
+    margin-bottom: 50px;
+}
+
+.caption-block {
+            padding-bottom: 30px;
+    
+            width: 270px;
+        } 
+.const-link {
+    width: 170px;  }
+
+.const-client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.modal {
+     width: 528px;
+     height: 581px;
+ } 
+.text-check {
+    font-size: 14px;
+    line-height: 1.71px;
+}
+ .modal-link {
+     font-size: 14px;
+     line-height: 1.71px; }
+ 
+
+.modal-title {
+    
+    line-height: 1.15;
+}
+.online-form {
+    display: flex;
+    
+ }
+ .online-input {
+    width: 358px;
+    margin-right: 12px;
+ }
+.footer-desk {
+    display: flex;
+}
+.footer-tab { margin-right: 70px; }
+.right-big{
+    text-align: left;
+}
+.logo-footer{
+    text-align: left;
+}
+.footer-address{
+    text-align: left;
+}
+.adress-block{
+    text-align: left;
+}
+.footer-l{
+    margin-bottom: 0px;
+}
+.footer-right { margin-right: 94px;}
+ }
+
+
+ /*.modal {
+     width: 528px;
+     height: 581px;
+     padding: 40px;
+ } */
